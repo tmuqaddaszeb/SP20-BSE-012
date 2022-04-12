@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragmentleft
         setContentView(R.layout.activity_main);
         BlankFragmentleft LeftFragment= new BlankFragmentleft();
 
-        getSupportFragmentManager().beginTransaction().add(R.id)
+        getSupportFragmentManager().beginTransaction().add(R.id.fragment-)
 
 
     }
