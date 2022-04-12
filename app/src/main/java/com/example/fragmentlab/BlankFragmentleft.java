@@ -63,8 +63,11 @@ public class BlankFragmentleft extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_blank_fragmentleft, container, false);
+        private btn=View.
+        btn
         return view;
     }
+
     public void onAttach(@NonNull Context context){
         super.onAttach(context);
         try{

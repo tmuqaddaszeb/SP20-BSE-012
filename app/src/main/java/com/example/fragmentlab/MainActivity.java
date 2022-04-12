@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity implements BlankFragmentleft
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        BlankFragmentleft LeftFragment= new BlankFragmentleft();
 
-        getSupportFragmentManager().beginTransaction().commit();
+        getSupportFragmentManager().beginTransaction().add(R.id)
 
 
     }
