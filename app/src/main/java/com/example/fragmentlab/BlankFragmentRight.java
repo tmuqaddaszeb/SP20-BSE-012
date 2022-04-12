@@ -8,12 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link BlankFragmentRight#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class BlankFragmentRight extends Fragment {
+    private textView msgFragment;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,5 +59,8 @@ public class BlankFragmentRight extends Fragment {
         // Inflate the layout for this fragment
         View view =inflater.inflate(R.layout.fragment_blank_right, container, false);
         return view;
+    }
+    public void display( Record record){
+        msgFragment.setText(record.toString());
     }
 }
