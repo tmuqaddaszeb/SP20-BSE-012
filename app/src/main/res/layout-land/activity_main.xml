@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="com.example.fragmentlab.BlankFragmentleft"
+    <FrameLayout
+        android:id="@+id/LeftFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="50" />
+        android:layout_weight="50">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView2"
-        android:name="com.example.fragmentlab.BlankFragmentRight"
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/RightFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="50" />
+        android:layout_weight="50">
+
+    </FrameLayout>
 </LinearLayout>
